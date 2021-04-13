@@ -6,7 +6,7 @@ El objetivo de la tarea es introducir el uso de las instrucciones *intrinsics* d
 
 ## Trabajo experimental
 
-El trabajo de realizar se dividirá principalmente en las siguientes etapas. Los pasos 1 y 3 están implementados en el código de ejemplo.
+El trabajo a realizar se dividirá principalmente en las siguientes etapas. Los pasos 1 y 3 están implementados en el código de ejemplo.
 
 1. Cargar en memoria principal el contenido de un archivo que contiene los números a ordenar. El archivo contiene 10 millones de números enteros sin signo de 32 bits.
 2. Medir el tiempo de carga en milisegundos.
