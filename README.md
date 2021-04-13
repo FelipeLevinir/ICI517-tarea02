@@ -23,7 +23,7 @@ El código de su trabajo deberá ser copiado en el directorio ```/projects/$USER
 
 ```
 /projects/$USER/
-	+ tarea01/
+	+ tarea02/
 		+ code/
 			- Makefile
 			+ src/
