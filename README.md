@@ -1,4 +1,4 @@
-# Ordenar arreglo de enteros 
+# Ordenar arreglo de enteros con SIMD
 
 El objetivo de la tarea es introducir el uso de las instrucciones *intrinsics* de los procesadores Intel. Para esto, se ordenará un arreglo dinámico de enteros de 32 bits a través de operaciones vectoriales y se comparará el desempeño temporal del ordenamiento logrado con la función ```std::sort()```, la que tiene complejidad O(n·log n). Utilizará el concepto de *SpeedUp* de un programa para medir el desempeño temporal y los resultados de los experimentos serán mostrados a través de gráficos con su correspondiente explicación y análisis.
 
