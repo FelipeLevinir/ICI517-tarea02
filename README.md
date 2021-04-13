@@ -30,7 +30,7 @@ El código de su trabajo deberá ser copiado en el directorio ```/projects/$USER
 		- README.txt	
 ```
 
-El archivo README.txt deberá contener una descripción de los directorios y de su contenido. El directorio ```src``` debe tener la misma estructura del que se encuentra en este repositorio. Recuerde que su código debe ser compilado con el comando ```make```. Una vez compilado sin errores, se ejecuturá con la secuencia:
+El archivo README.txt deberá contener una descripción de los directorios y de su contenido. El directorio ```src``` debe tener la misma estructura del que se encuentra en este repositorio. Recuerde que su código debe ser compilado con el comando ```make```. Una vez compilado sin errores, se ejecutará con la secuencia:
 
 ```
 $ cd /projects/$USER/tarea02/code
