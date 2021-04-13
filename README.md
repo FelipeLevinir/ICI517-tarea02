@@ -6,7 +6,7 @@ El objetivo de la tarea es introducir el uso de las instrucciones *intrinsics* d
 
 ## Trabajo experimental
 
-El trabajo de realizar se dividirá principalmente en las siguientes etapas.
+El trabajo de realizar se dividirá principalmente en las siguientes etapas. Los pasos 1 y 3 están implementados en el código de ejemplo.
 
 1. Cargar en memoria principal el contenido de un archivo que contiene los números a ordenar. El archivo contiene 10 millones de números enteros sin signo de 32 bits.
 2. Medir el tiempo de carga en milisegundos.
@@ -30,7 +30,12 @@ El código de su trabajo deberá ser copiado en el directorio ```/projects/$USER
 		- README.txt	
 ```
 
-El archivo README.txt deberá contener una descripción de los directorios y de su contenido. El directorio ```src``` debe tener la misma estructura del que se encuentra en este repositorio. Recuerde que su código debe ser compilado con el comando ```make```. 
+El archivo README.txt deberá contener una descripción de los directorios y de su contenido. El directorio ```src``` debe tener la misma estructura del que se encuentra en este repositorio. Recuerde que su código debe ser compilado con el comando ```make```. Una vez compilado sin errores, se ejecuturá con la secuencia:
+
+```
+$ ./tarea02 --fname /projects/tarea02/data_to_sort_10000000.dat	
+Salida de los experimentos realizados...
+```
 
 
 ## Informe escrito
