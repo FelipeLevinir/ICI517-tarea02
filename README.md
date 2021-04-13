@@ -33,6 +33,8 @@ El código de su trabajo deberá ser copiado en el directorio ```/projects/$USER
 El archivo README.txt deberá contener una descripción de los directorios y de su contenido. El directorio ```src``` debe tener la misma estructura del que se encuentra en este repositorio. Recuerde que su código debe ser compilado con el comando ```make```. Una vez compilado sin errores, se ejecuturá con la secuencia:
 
 ```
+$ cd /projects/$USER/tarea02/code
+$ make
 $ ./tarea02 --fname /projects/tarea02/data_to_sort_10000000.dat	
 Salida de los experimentos realizados...
 ```
