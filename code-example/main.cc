@@ -55,7 +55,7 @@ int main(int argc, char** argv)
 	////////////////////////////////////////////////////////////////
 	// Mostrar los 5 primeros elementos de la matriz ordenada.
 	for(size_t i=0; i< 5; i++){		
-		std::cout <<  m1._matrixInMemory[i] << std::endl;
+		std::cout <<  m1[i] << std::endl;
 	}
 
 
