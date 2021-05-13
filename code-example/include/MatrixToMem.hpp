@@ -14,6 +14,7 @@
 //   Atributos públicos:
 //	             _nfil : filas de datos de la matriz
 //               _matrixInMemory: matriz en memoria.
+//               operador [] sobrecargado para acceder a los datos de la matriz
 //
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -31,6 +32,8 @@ public:
 public:
 	MatrixToMem(std::string fileName);
 	~MatrixToMem();
+	
+	uint32_t operator[](uint32_t idx);
 	
 private:
 	void openFile();
@@ -79,6 +82,10 @@ void MatrixToMem::loadInMemory()
 	_matrixFile.close();
 }
 
+uint32_t MatrixToMem::operator[](uint32_t idx)
+{
+	return(_matrixInMemory[idx]);
+}
 
 
 #endif
